@@ -1,6 +1,6 @@
 # libasync
 
-A wrapped around [libtpool](https://github.com/resyfer/libtpool). For instructions on usage, please go [here](#usage).
+A wrapper around [libtpool](https://github.com/resyfer/libtpool). For instructions on usage, please go [here](#usage).
 
 For installation, please go [here](#installation). For documentation, please go [here](#documentation).
 
@@ -52,6 +52,7 @@ $ ./test.o
 ```
 Output:
 
+![image](https://user-images.githubusercontent.com/74897008/210037312-701590ac-0fee-4dbd-806c-fec0c7894471.png)
 
 ### Step 1
 
