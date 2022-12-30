@@ -4,7 +4,11 @@
 void
 async_init(void)
 {
-	async_pool = tpool_new(get_nprocs_conf() - 1); // 1 for main thread
+	int n = get_nprocs_conf();
+	if(n > 1) {
+		n--; // 1 for main thread
+	}
+	async_pool = tpool_new(n);
 }
 
 void
