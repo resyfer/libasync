@@ -1,0 +1,49 @@
+\hypertarget{async_8h}{}\doxysection{include/async.h File Reference}
+\label{async_8h}\index{include/async.h@{include/async.h}}
+
+
+This header file is the entry point for the library.  
+
+
+{\ttfamily \#include $<$libtpool/tpool.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{async_8h_afeb177fed83de54971cd36c234057f6e}\label{async_8h_afeb177fed83de54971cd36c234057f6e}} 
+void {\bfseries async\+\_\+init} (void)
+\begin{DoxyCompactList}\small\item\em Initialize async. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{async_8h_a64cfc5e5dba339d58e7cbe419adf139d}{async}} (routine\+\_\+t routine, void $\ast$args)
+\begin{DoxyCompactList}\small\item\em Asynchronously complete the task {\ttfamily routine} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{async_8h_a4ee3f5687311849c7224ecb286fb5ef3}\label{async_8h_a4ee3f5687311849c7224ecb286fb5ef3}} 
+void {\bfseries await\+\_\+all} (void)
+\begin{DoxyCompactList}\small\item\em Wait till all async tasks are completed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This header file is the entry point for the library. 
+
+\begin{DoxyAuthor}{Author}
+Saurav Pal (resyfer) 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]No known bugs \end{DoxyRefDesc}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{async_8h_a64cfc5e5dba339d58e7cbe419adf139d}\label{async_8h_a64cfc5e5dba339d58e7cbe419adf139d}} 
+\index{async.h@{async.h}!async@{async}}
+\index{async@{async}!async.h@{async.h}}
+\doxysubsubsection{\texorpdfstring{async()}{async()}}
+{\footnotesize\ttfamily void async (\begin{DoxyParamCaption}\item[{routine\+\_\+t}]{routine,  }\item[{void $\ast$}]{args }\end{DoxyParamCaption})}
+
+
+
+Asynchronously complete the task {\ttfamily routine} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em routine} & Task \\
+\hline
+{\em args} & Arguments for the task \\
+\hline
+\end{DoxyParams}
